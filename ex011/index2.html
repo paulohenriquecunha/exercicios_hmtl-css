@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Imagem felxível</title>
+</head>
+<body>
+    <h1>Exercício de imagem flexível</h1>
+    <p>Veja a imagem deste lindo bebe!</p>
+    <picture>
+        <source media="(max-width:750px)" srcset="imagens/foto-bebe-p.jpg" type="image/jpg">
+        <source media="(max-width:1050px)" srcset="imagens/foto-bebe-m.jpg" type="image/jpg">
+        <img src="imagens/foto-bebe-g.jpg" alt="Bebe feliz">
+    </picture>
+</body>
+</html>
